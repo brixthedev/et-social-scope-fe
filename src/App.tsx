@@ -1,7 +1,14 @@
-export default function App() {
-  return (
-    <div className="grid min-h-screen place-items-center">
-      <h1 className="text-2xl font-bold">Site under development...</h1>
-    </div>
-  );
+import { useState } from 'react'
+import Dashboard from './components/Dashboard'
+import Layout from './components/Layout'
+
+function App() {
+    return (
+        <div className="w-full h-screen bg-white">
+            <Layout />
+            <Dashboard />
+        </div>
+    )
 }
+
+export default App
